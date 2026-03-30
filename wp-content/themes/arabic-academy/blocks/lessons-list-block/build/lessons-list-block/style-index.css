@@ -1,0 +1,159 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/lessons-list-block/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-arabic-academy-lessons-list-block p {
+  padding: 0;
+  margin: 0;
+}
+.wp-block-arabic-academy-lessons-list-block a {
+  text-decoration: none;
+  border-radius: 8px;
+}
+.wp-block-arabic-academy-lessons-list-block.v1 {
+  min-height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+}
+.wp-block-arabic-academy-lessons-list-block.v1 .container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.wp-block-arabic-academy-lessons-list-block.v1 .container .label {
+  min-width: 32px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: white;
+}
+.wp-block-arabic-academy-lessons-list-block.v1 .container .text {
+  flex-grow: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.wp-block-arabic-academy-lessons-list-block.v1 .container .trailing {
+  display: none;
+}
+.wp-block-arabic-academy-lessons-list-block.v2 {
+  min-height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+}
+.wp-block-arabic-academy-lessons-list-block.v2 .container {
+  display: flex;
+  align-items: center;
+  background-color: #F2F4F5;
+  padding: 20px;
+  border-radius: 16px;
+  gap: 16px;
+}
+.wp-block-arabic-academy-lessons-list-block.v2 .container .label {
+  min-width: 32px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #191C1D;
+}
+.wp-block-arabic-academy-lessons-list-block.v2 .container .text {
+  flex-grow: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: #191C1D;
+  font-weight: bold;
+}
+.wp-block-arabic-academy-lessons-list-block.v2 .container .trailing {
+  display: none;
+}
+.wp-block-arabic-academy-lessons-list-block.v3 {
+  min-height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+}
+.wp-block-arabic-academy-lessons-list-block.v3 .container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  gap: 16px;
+}
+.wp-block-arabic-academy-lessons-list-block.v3 .container .label {
+  display: none;
+}
+.wp-block-arabic-academy-lessons-list-block.v3 .container .text {
+  flex-grow: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #191C1D;
+  font-weight: bold;
+}
+.wp-block-arabic-academy-lessons-list-block.v3 .container .trailing {
+  color: #00464A;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 {
+  min-height: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #F2F4F5;
+  padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 .container .label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  color: #8B5000;
+  font-weight: bold;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 .container .text {
+  flex-grow: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: #191C1D;
+  font-weight: bold;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 .container .trailing {
+  display: block;
+  width: 30%;
+  height: 4px;
+  background-color: #00464A;
+}
+.wp-block-arabic-academy-lessons-list-block.v4 .container .trailing svg {
+  display: none;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
