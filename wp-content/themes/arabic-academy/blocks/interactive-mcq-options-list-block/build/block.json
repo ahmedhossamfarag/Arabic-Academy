@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "arabic-academy/interactive-mcq-options-list-block",
+  "version": "0.1.0",
+  "title": "Interactive MCQ Options List Block",
+  "category": "widgets",
+  "description": "An interactive block with the Interactivity API.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "textdomain": "arabic-academy",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
