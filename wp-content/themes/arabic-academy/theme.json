@@ -59,22 +59,34 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFace": [],
-					"fontFamily": "\"IBM Plex Sans Arabic\", sans-serif",
-					"name": "IBM Plex Sans Arabic",
-					"slug": "ibm-plex-sans-arabic"
-				},
-				{
-					"fontFace": [],
+					"fontFace": [
+						{
+							"fontFamily": "Cairo",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cairo/cairo-400-normal.woff2"
+							]
+						}
+					],
 					"fontFamily": "Cairo, sans-serif",
 					"name": "Cairo",
 					"slug": "cairo"
 				},
 				{
-					"fontFace": [],
-					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
-					"name": "Plus Jakarta Sans",
-					"slug": "plus-jakarta-sans"
+					"fontFace": [
+						{
+							"fontFamily": "\"IBM Plex Sans Arabic\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans-arabic/ibm-plex-sans-arabic-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"IBM Plex Sans Arabic\", sans-serif",
+					"name": "IBM Plex Sans Arabic",
+					"slug": "ibm-plex-sans-arabic"
 				},
 				{
 					"fontFace": [
@@ -90,6 +102,21 @@
 					"fontFamily": "\"Noto Kufi Arabic\", sans-serif",
 					"name": "Noto Kufi Arabic",
 					"slug": "noto-kufi-arabic"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Plus Jakarta Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/plus-jakarta-sans/plus-jakarta-sans-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+					"name": "Plus Jakarta Sans",
+					"slug": "plus-jakarta-sans"
 				}
 			]
 		}
