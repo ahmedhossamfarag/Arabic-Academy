@@ -2,7 +2,9 @@
 /**
  * Title: Test Content
  * Slug: arabic-academy/test-content
- * Categories: 
+ * Categories: page
+ * Block Types: core/post-content
+ * Post Types: test
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"96px","bottom":"96px"}}},"backgroundColor":"custom-f-8-fafb","layout":{"type":"constrained","contentSize":"1200px"}} -->

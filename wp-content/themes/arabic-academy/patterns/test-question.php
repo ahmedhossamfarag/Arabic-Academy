@@ -2,7 +2,9 @@
 /**
  * Title: Test Question
  * Slug: arabic-academy/test-question
- * Categories: 
+ * Categories: page
+ * Block Types: core/post-content
+ * Post Types: test
  */
 ?>
 <!-- wp:columns {"templateLock":"all","lock":{"move":true,"remove":true}} -->

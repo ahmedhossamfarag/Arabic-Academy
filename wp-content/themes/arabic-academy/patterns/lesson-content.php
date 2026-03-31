@@ -2,7 +2,9 @@
 /**
  * Title: Lesson Content
  * Slug: arabic-academy/lesson-content
- * Categories: 
+ * Categories: page
+ * Block Types: core/post-content
+ * Post Types: lesson
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"69px","bottom":"69px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->

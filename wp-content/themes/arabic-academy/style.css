@@ -15,6 +15,11 @@ Text Domain: arabic-academy
 Tags: 
 */
 
+.wp-block-navigation-item.current-menu-item{
+    color: #0E7490;
+    border-bottom: 2px solid #0E7490;
+}
+
 @media screen and (max-width: 1200px) {
     .aligned-center-min, .aligned-center-min *{
         text-align: center;
