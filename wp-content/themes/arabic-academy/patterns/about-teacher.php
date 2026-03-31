@@ -5,8 +5,8 @@
  * Categories: 
  */
 ?>
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"className":"aligned-center-min","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group aligned-center-min" style="margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-3-f-4949"}}},"typography":{"fontSize":"14px"},"spacing":{"padding":{"top":"6px","bottom":"6px","left":"16px","right":"16px"}},"border":{"radius":{"topLeft":"6px","topRight":"6px","bottomLeft":"6px","bottomRight":"6px"}},"color":{"background":"#e6e8e9"}},"textColor":"custom-3-f-4949","fontFamily":"cairo"} -->
 <p class="has-custom-3-f-4949-color has-text-color has-background has-link-color has-cairo-font-family" style="border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#e6e8e9;padding-top:6px;padding-right:16px;padding-bottom:6px;padding-left:16px;font-size:14px"><?php esc_html_e('أكاديمية اللغة العربية والقرآن الكريم', 'arabic-academy');?></p>

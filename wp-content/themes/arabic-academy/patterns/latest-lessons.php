@@ -7,8 +7,8 @@
 ?>
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"color":{"gradient":"linear-gradient(180deg,rgb(255,255,255) 0%,rgba(255,255,255,0) 100%)"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(180deg,rgb(255,255,255) 0%,rgba(255,255,255,0) 100%);padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-00464-a"}}},"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"30px"}},"textColor":"custom-00464-a","fontFamily":"cairo"} -->
-<p class="has-text-align-left has-custom-00464-a-color has-text-color has-link-color has-cairo-font-family" style="font-size:30px;font-style:normal;font-weight:700"><?php esc_html_e('أحدث الدروس المصورة', 'arabic-academy');?></p>
+<div class="wp-block-group has-background" style="background:linear-gradient(180deg,rgb(255,255,255) 0%,rgba(255,255,255,0) 100%);padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:paragraph {"align":"right","style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-00464-a"}}},"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"30px"}},"textColor":"custom-00464-a","fontFamily":"cairo"} -->
+<p class="has-text-align-right has-custom-00464-a-color has-text-color has-link-color has-cairo-font-family" style="font-size:30px;font-style:normal;font-weight:700"><?php esc_html_e('أحدث الدروس المصورة', 'arabic-academy');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-3-f-4949"}}},"typography":{"fontSize":"16px"}},"textColor":"custom-3-f-4949","fontFamily":"cairo"} -->

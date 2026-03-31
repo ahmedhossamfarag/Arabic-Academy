@@ -15,3 +15,10 @@ Text Domain: arabic-academy
 Tags: 
 */
 
+@media screen and (max-width: 1200px) {
+    .aligned-center-min, .aligned-center-min *{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
