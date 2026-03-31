@@ -1,0 +1,18 @@
+<?php
+/**
+ * Title: header
+ * Slug: arabic-academy/header
+ * Inserter: no
+ */
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"16px","bottom":"16px","left":"24px","right":"24px"}}},"backgroundColor":"custom-base","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-custom-base-background-color has-background" style="padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|custom-00464-a"}}},"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"700"}},"textColor":"custom-00464-a","fontFamily":"plus-jakarta-sans"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:navigation {"ref":4,"textColor":"custom-3-f-4949","style":{"typography":{"fontSize":"18px"}},"fontFamily":"noto-kufi-arabic"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:site-logo {"className":"is-style-rounded","style":{"layout":{"selfStretch":"fixed","flexSize":"32px"}}} /--></div>
+<!-- /wp:group -->

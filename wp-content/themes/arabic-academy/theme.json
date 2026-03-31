@@ -51,8 +51,8 @@
 				},
 				{
 					"color": "#ffffff",
-					"name": "bas",
-					"slug": "custom-bas"
+					"name": "base",
+					"slug": "custom-base"
 				}
 			]
 		},

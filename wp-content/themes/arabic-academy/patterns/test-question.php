@@ -7,8 +7,8 @@
 ?>
 <!-- wp:columns {"templateLock":"all","lock":{"move":true,"remove":true}} -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"}},"border":{"radius":{"topLeft":"32px","topRight":"32px","bottomLeft":"32px","bottomRight":"32px"}}},"backgroundColor":"custom-bas"} -->
-<div class="wp-block-group has-custom-bas-background-color has-background" style="border-top-left-radius:32px;border-top-right-radius:32px;border-bottom-left-radius:32px;border-bottom-right-radius:32px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"}},"border":{"radius":{"topLeft":"32px","topRight":"32px","bottomLeft":"32px","bottomRight":"32px"}}},"backgroundColor":"custom-base"} -->
+<div class="wp-block-group has-custom-base-background-color has-background" style="border-top-left-radius:32px;border-top-right-radius:32px;border-bottom-left-radius:32px;border-bottom-right-radius:32px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"background":"#a6eff3"},"elements":{"link":{"color":{"text":"var:preset|color|custom-00464-a"}}},"typography":{"fontSize":"12px","fontStyle":"normal","fontWeight":"700"},"spacing":{"padding":{"top":"6px","bottom":"6px","left":"16px","right":"16px"}},"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}}},"textColor":"custom-00464-a","fontFamily":"ibm-plex-sans-arabic"} -->
 <p class="has-custom-00464-a-color has-text-color has-background has-link-color has-ibm-plex-sans-arabic-font-family" style="border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;background-color:#a6eff3;padding-top:6px;padding-right:16px;padding-bottom:6px;padding-left:16px;font-size:12px;font-style:normal;font-weight:700"><?php esc_html_e('السؤال الرابع', 'arabic-academy');?></p>
 <!-- /wp:paragraph --></div>
@@ -33,20 +33,20 @@ echo sprintf( esc_html__( 'وَلَسْتُ بِمُسْتَبْقٍ أَخاً 
 <!-- /wp:paragraph -->
 
 <!-- wp:arabic-academy/interactive-mcq-options-list-block -->
-<div class="wp-block-arabic-academy-interactive-mcq-options-list-block"><!-- wp:arabic-academy/mcq-option-block {"text":"Option A","backgroundColor":"custom-bas"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-bas-background-color has-background"><div class="container"><div class="text"><p> Option A </p></div><div class="label"><p> A</p></div></div></div>
+<div class="wp-block-arabic-academy-interactive-mcq-options-list-block"><!-- wp:arabic-academy/mcq-option-block {"text":"Option A","backgroundColor":"custom-base"} -->
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option A </p></div><div class="label"><p> A</p></div></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
-<!-- wp:arabic-academy/mcq-option-block {"text":"Option B","label":"B","backgroundColor":"custom-bas"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-bas-background-color has-background"><div class="container"><div class="text"><p> Option B </p></div><div class="label"><p> B</p></div></div></div>
+<!-- wp:arabic-academy/mcq-option-block {"text":"Option B","label":"B","backgroundColor":"custom-base"} -->
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option B </p></div><div class="label"><p> B</p></div></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
-<!-- wp:arabic-academy/mcq-option-block {"text":"Option C","label":"C","backgroundColor":"custom-bas"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-bas-background-color has-background"><div class="container"><div class="text"><p> Option C </p></div><div class="label"><p> C</p></div></div></div>
+<!-- wp:arabic-academy/mcq-option-block {"text":"Option C","label":"C","backgroundColor":"custom-base"} -->
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option C </p></div><div class="label"><p> C</p></div></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
-<!-- wp:arabic-academy/mcq-option-block {"text":"Option D","label":"D","backgroundColor":"custom-bas"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-bas-background-color has-background"><div class="container"><div class="text"><p> Option D </p></div><div class="label"><p> D</p></div></div></div>
+<!-- wp:arabic-academy/mcq-option-block {"text":"Option D","label":"D","backgroundColor":"custom-base"} -->
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option D </p></div><div class="label"><p> D</p></div></div></div>
 <!-- /wp:arabic-academy/mcq-option-block --></div>
 <!-- /wp:arabic-academy/interactive-mcq-options-list-block --></div>
 <!-- /wp:column --></div>
