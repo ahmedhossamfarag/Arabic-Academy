@@ -55,19 +55,19 @@ echo sprintf( esc_html__( 'وَلَسْتُ بِمُسْتَبْقٍ أَخاً 
 
 <!-- wp:arabic-academy/interactive-mcq-options-list-block -->
 <div class="wp-block-arabic-academy-interactive-mcq-options-list-block"><!-- wp:arabic-academy/mcq-option-block {"text":"Option A","backgroundColor":"custom-base"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option A </p></div><div class="label"><p> A</p></div></div></div>
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option A </p></div><div class="label"><p> A</p></div></div><div class="explaination"><p> </p></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
 <!-- wp:arabic-academy/mcq-option-block {"text":"Option B","label":"B","backgroundColor":"custom-base"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option B </p></div><div class="label"><p> B</p></div></div></div>
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option B </p></div><div class="label"><p> B</p></div></div><div class="explaination"><p> </p></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
 <!-- wp:arabic-academy/mcq-option-block {"text":"Option C","label":"C","backgroundColor":"custom-base"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option C </p></div><div class="label"><p> C</p></div></div></div>
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option C </p></div><div class="label"><p> C</p></div></div><div class="explaination"><p> </p></div></div>
 <!-- /wp:arabic-academy/mcq-option-block -->
 
 <!-- wp:arabic-academy/mcq-option-block {"text":"Option D","label":"D","backgroundColor":"custom-base"} -->
-<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option D </p></div><div class="label"><p> D</p></div></div></div>
+<div class="wp-block-arabic-academy-mcq-option-block has-custom-base-background-color has-background"><div class="container"><div class="text"><p> Option D </p></div><div class="label"><p> D</p></div></div><div class="explaination"><p> </p></div></div>
 <!-- /wp:arabic-academy/mcq-option-block --></div>
 <!-- /wp:arabic-academy/interactive-mcq-options-list-block --></div>
 <!-- /wp:column --></div>

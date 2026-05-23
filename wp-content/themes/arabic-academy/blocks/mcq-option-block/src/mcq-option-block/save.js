@@ -16,7 +16,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @return {Element} Element to render.
  */
 export default function save({ attributes }) {
-	const { text, label, correct } = attributes;
+	const { text, label, correct, explaination } = attributes;
 
 	return (
 		<div {...useBlockProps.save()}>
@@ -27,6 +27,10 @@ export default function save({ attributes }) {
 				<div className='label'>
 					<p> {label}</p>
 				</div>
+			</div>
+
+			<div className='explaination'>
+				<p> {explaination}</p>
 			</div>
 		</div>
 	);

@@ -25,14 +25,66 @@
 	.wp-block-arabic-academy-mcq-option-block.selected .container{
 		border: 3px solid #191C1D;
 	}
+	.wp-block-arabic-academy-mcq-option-block .explaination{
+		display: none;
+		align-items: center;
+		padding: 16px 20px;
+		
+		background: linear-gradient(135deg, #e8f8f5 0%, #f0fdfb 100%);
+		border-left: 4px solid #2bbfb0;
+		border-radius: 8px 0 0 8px;
+		
+		font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+		font-size: 0.95rem;
+		line-height: 1.8;
+		color: #2c4a47;
+		text-align: right;
+		
+		position: relative;
+		
+		&::before {
+			content: '💡';
+			display: block;
+			font-size: 1.1rem;
+			margin-bottom: 6px;
+			opacity: 0.85;
+		}
+		
+		animation: slideDown 0.3s ease-out both;
+	}
 }
 
 div.active .wp-block-arabic-academy-interactive-mcq-options-list-block{
 	.wp-block-arabic-academy-mcq-option-block.selected .container{
 		border: 3px solid red;
 	}
+	.wp-block-arabic-academy-mcq-option-block.selected .explaination {
+		display: flex;
+		background: linear-gradient(135deg, #fdf0f0 0%, #fff5f5 100%);
+		border-left: 4px solid #e05555;
+		color: #4a2c2c;
+	}
 
 	.wp-block-arabic-academy-mcq-option-block .container.correct{
 		border: 3px solid lightgreen;
 	}
+
+	.wp-block-arabic-academy-mcq-option-block .container.correct + .explaination {
+		display: flex;
+		background: linear-gradient(135deg, #e8f8f5 0%, #f0fdfb 100%);
+		border-left: 4px solid #2bbfb0;
+		color: #2c4a47;
+	}
+}
+
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

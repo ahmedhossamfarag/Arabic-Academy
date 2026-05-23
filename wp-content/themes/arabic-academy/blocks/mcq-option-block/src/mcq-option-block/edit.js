@@ -31,7 +31,7 @@ import { TextControl, ToggleControl, PanelBody } from '@wordpress/components';
  * @return {Element} Element to render.
  */
 export default function Edit({ attributes, setAttributes }) {
-	const { text, label, correct } = attributes;
+	const { text, label, correct, explaination } = attributes;
 
 	return (
 		<>
@@ -52,6 +52,11 @@ export default function Edit({ attributes, setAttributes }) {
 						checked={correct}
 						onChange={(correct) => setAttributes({ correct })}
 					/>
+					<TextControl
+						label={__('Explaination', 'arabic-academy')}
+						value={explaination}
+						onChange={(explaination) => setAttributes({ explaination })}
+					/>
 				</PanelBody>
 			</InspectorControls>
 			<div { ...useBlockProps() }>
@@ -62,6 +67,10 @@ export default function Edit({ attributes, setAttributes }) {
 					<div className='label'>
 						<p> { label }</p>
 					</div>
+				</div>
+				
+				<div className='explaination'>
+					<p> { explaination }</p>
 				</div>
 			</div>
 		</>

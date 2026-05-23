@@ -31,6 +31,10 @@ return array(
 			'correct' => array(
 				'type' => 'boolean',
 				'default' => false
+			),
+			'explaination' => array(
+				'type' => 'string',
+				'default' => ''
 			)
 		),
 		'textdomain' => 'mcq-option-block',
